@@ -2,11 +2,11 @@
     "type":"SoC",
     "name":"CH564",
     "title": "WCH SoC CH564",
-    "description":"WCH RISC-V3C USBHS+BLE+NFC SoC",
+    "description":"WCH RISC-V4J USBHS+PD+ETH SoC",
     "version":"1.1.0",
     "Core": {
         "num": 1,
-        "type":"RISC-V3C",
+        "type":"RISC-V4J",
         "Freq": 40,
         "DMIPS": 100,
         "CoreMark": 160
@@ -19,8 +19,8 @@
         "type": "git",
         "url": "https://github.com/SoCXin/CH564.git"
     },
-    "series":["CH564","CH584"],
-    "package":["QFN26C","QFN32","QFN48"],
+    "series":["CH564L","CH564Q","CH564D"],
+    "package":["QFN26C","LQFP64M","LQFP128"],
     "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
     "price":[4,8],
     "PWR": {
@@ -41,7 +41,7 @@
     },
     "keywords": [
         "RISC-V",
-        "RISC-V3C",
+        "RISC-V4J",
         "WCH",
         "CH564",
         "USBHS","NFC","BLE","I2C","RTC","SPI",

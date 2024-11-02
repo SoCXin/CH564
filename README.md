@@ -1,7 +1,7 @@
 ﻿# [CH564](https://github.com/SoCXin/CH564)
 
 * [WCH](http://www.wch.cn/)：[RISC-V](https://github.com/SoCXin/RISC-V)
-* [L1R2](https://github.com/SoCXin/Level): 78 MHz 
+* [L1R3](https://github.com/SoCXin/Level): 120 MHz 
 
 ## [简介](https://github.com/SoCXin/CH564/wiki)
 
@@ -21,7 +21,7 @@ gantt
 * 64/96/128KB SRAM + 192KB Flash
 * 多路外部12位模数转换ADC
 * 多组定时器和脉宽调制 PWM
-* 多组UART串口：兼容16C550，通讯波特率高达12Mbps
+* 4xUART：兼容16C550，通讯波特率高达12Mbps
 * 1个I2C接口和2个SPI接口
 * 1个8位被动并口SLV
 * 1个外部总线接口XBUS
